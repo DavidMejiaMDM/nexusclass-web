@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: NexusClass-web
+    runtime: static
+    buildCommand: echo "sin build"
+    staticPublishPath: .
